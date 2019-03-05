@@ -1,0 +1,30 @@
+.checked {
+  color: #ccc;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.fa {
+  margin: 0 5px;
+  color: #ccc;
+}
+
+.fa:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+li>label[for='todo'] {
+  width: 210px;
+}
+
+li>label:hover{
+  background: #787878;
+  cursor: pointer;
+  color: white;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
